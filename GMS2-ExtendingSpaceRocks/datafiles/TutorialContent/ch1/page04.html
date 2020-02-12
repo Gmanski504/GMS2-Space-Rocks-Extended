@@ -148,8 +148,8 @@
 		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Extending-Space-Rocks/CH1/AddRotationToStep.png" alt="Add rotation to exploding line">		
 		
 	<p>
-		Now we kill the ship in <tt><b>obj_ship: Step</b></tt> event.  After you destroy the ship add a loop with 8 lines all flying out a random angles.  We also need to delay the alarm so that the animation has time to finish before restarting.
-		<h3><tt><b>obj_ship: Step</b></tt></h3>
+		Now we kill the ship in <tt><b>obj_ship: collision obj_asteroid</b></tt> event.  After you destroy the ship add a loop with 8 lines all flying out a random angles.  We also need to delay the alarm so that the animation has time to finish before restarting.
+		<h3><tt><b>obj_ship: collision obj_asteroid</b></tt></h3>
 
 	<p>
 		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Extending-Space-Rocks/CH1/AddShipExplosionToShipObject.png" alt="Add delay and rotate explosion in obj_ship">		
