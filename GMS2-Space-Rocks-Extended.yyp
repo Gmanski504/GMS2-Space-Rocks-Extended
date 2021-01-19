@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"scr_spawn_asteroid","path":"scripts/scr_spawn_asteroid/scr_spawn_asteroid.yy",},"order":0,},
     {"id":{"name":"room0","path":"rooms/room0/room0.yy",},"order":1,},
   ],
   "Options": [
