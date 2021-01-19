@@ -1,13 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_spawn_asteroid()
+function scr_spawn_asteroid(asteroid_sprite, x_pos, y_pos, speed_multiplier, angle)
 {
-		//Assign arguments to local variables
-	var asteroid_sprite = argument0;
-	var x_pos = argument1;
-	var y_pos = argument2;
-	var speed_multiplier = argument3;
-	var angle = argument4;
+
 
 	//Checks to see if one of the sprites is named correctly
 	if (asteroid_sprite != spr_asteroid_small 
