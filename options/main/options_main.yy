@@ -1,5 +1,5 @@
 {
-  "option_gameguid": "1eff0714-62e2-47c3-ad04-8b330c6a9968",
+  "option_gameguid": "33a0455f-549a-48b9-80aa-e7438ed2b0d3",
   "option_game_speed": 60,
   "option_mips_for_3d_textures": false,
   "option_draw_colour": 4294967295,
@@ -7,7 +7,7 @@
   "option_steam_app_id": "0",
   "option_sci_usesci": false,
   "option_author": "",
-  "option_lastchanged": "15 December 2018 12:19:06",
+  "option_lastchanged": "",
   "option_spine_licence": false,
   "resourceVersion": "1.2",
   "name": "Main",
